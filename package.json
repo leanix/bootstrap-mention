@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap-mention",
+  "version": "0.1.0",
+  "description": "bootstrap-mention",
+  "private": true,
+  "main": "src/js/jquery.bootstrapMention.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/leanix/bootstrap-mention.git"
+  },
+  "author": {
+    "name": "Andre Christ",
+    "email": "andre.christ@leanix.net"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leanix/bootstrap-mention/issues"
+  }
+}
