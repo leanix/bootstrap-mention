@@ -40,7 +40,8 @@
                 if (!query)
                     query = '';
 
-                var highlighted = $('<span>' + user.fullname + '</span>').highlight(query.split(' '));
+                var highlighted = $('<span>' + user.fullname + ' (' +
+                        user.username + ')</span>').highlight(query.split(' '));
                 text += '<strong>' + highlighted.html() + '</strong>';
 
                 return {
