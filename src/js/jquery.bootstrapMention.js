@@ -41,11 +41,11 @@
                     query = '';
 
                 var highlighted = $('<span>' + user.fullname + ' (' +
-                        user.username + ')</span>').highlight(query.split(' '));
+                        user.email + ')</span>').highlight(query.split(' '));
                 text += '<strong>' + highlighted.html() + '</strong>';
 
                 return {
-                    value: user.username,
+                    value: user.email,
                     text: text
                 }
             }
